@@ -1,0 +1,25 @@
+{
+  "name": "webpack-4",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack":"npx webpack --config config/webpack.config.js --mode development",
+    "build":"npx webpack --config config/webpack.config.js --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://souldjl@github.com/souldjl/webpack-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souldjl/webpack-4/issues"
+  },
+  "homepage": "https://github.com/souldjl/webpack-4#readme",
+  "devDependencies": {
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
