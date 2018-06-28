@@ -1,1 +1,3 @@
-console.log('222');
+const path = require('path');
+console.log(path)
+
