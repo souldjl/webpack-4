@@ -6,7 +6,7 @@ module.exports = {
         main: path.resolve(base, 'src', 'main.js')
     },
     output: {
-        filename: 'js/[name].[hash].js',
+        filename: 'js/[name].[chunkhash].js',
         path: path.resolve(base, 'dist')
     }
 };
