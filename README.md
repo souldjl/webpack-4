@@ -370,15 +370,8 @@ new ExtractTextPlugin('./dist/css/[name].[contenthash].css')
 `contenthash`代表的是文本文件内容的hash值，也就是只有style文件的hash值。这样编译输出的js和css文件将会有其独立的hash值。
 
 ## 示例代码
-在看文章的同时，搭配[示例项目](https://github.com/hujewelz/hello-webpack)会更直观哦，赶紧动起手来，开始入坑Webpack吧:)。
+[示例代码](https://github.com/souldjl/webpack-4/blob/master/config/webpack.config.js)，赶紧动起手来，开始入坑Webpack吧:)。
 
-克隆后，请执行 `npm install`
-```shell
-//启动运行环境
-npm run dev 
-//执行打包
-npm run build
-```
 
 
 
